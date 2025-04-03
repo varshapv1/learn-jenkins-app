@@ -2,7 +2,22 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('clone repository') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('push') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Deploy') {
             steps {
                 echo 'Hello World'
             }
